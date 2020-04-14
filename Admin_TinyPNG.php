@@ -332,7 +332,7 @@ class Admin_TinyPNG {
 
 		foreach($files as $file){
 
-			if( $file == '.' || $file == '..' || $file == $temp ){
+			if( $file[0] == '.' || $file == $temp ){
 				continue;
 			}
 
